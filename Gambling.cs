@@ -23,7 +23,7 @@ namespace AssignmentGambling
         {
             int win = 50;
 
-            if (win > 50) ;
+            while (win > 50) ;
             {
                 Console.WriteLine("Gamer Resign" + win);
                 return win;
